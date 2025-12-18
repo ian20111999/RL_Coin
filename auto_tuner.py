@@ -94,7 +94,7 @@ def objective(trial):
     return final_net_worth
 
 if __name__ == "__main__":
-    print("🚀 啟動 Quant Brain (Optuna 核心)...")
+    print("🚀 啟動 Optuna 量化參數搜尋引擎...")
     
     # 建立 Study，目標是最大化 (maximize) 最終淨值
     study = optuna.create_study(direction="maximize")
